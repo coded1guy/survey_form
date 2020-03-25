@@ -42,10 +42,10 @@ h2{
 	color: white;
 }
 label {
-	font-size: 10px;
+	font-size: 3vw;
 }
 p {
-	font-size: 16px;
+	font-size: 5vw;
 }
 input[type="text"], input[type="number"], input[type="email"] {
 	float: right;
