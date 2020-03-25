@@ -49,4 +49,10 @@ p {
 }
 input[type="text"], input[type="number"], input[type="email"] {
 	float: right;
+        width: 40%;
+        border-radius: 5px; 
+}
+textarea {
+        width: 90%;
+        margin: 2% 5% 3% 5%;
 }
