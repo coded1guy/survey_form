@@ -1,0 +1,101 @@
+html, body{
+  max-width: 100%;
+}
+body{
+  background-image: url('backdrop.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  }
+@media (min-width: 319px) and (max-width: 375px) {
+  .banner{
+  background: rgba(225,225,225,0.6);
+  width: 90%;
+  margin: 5%;
+}
+.banner2 {
+  width: 80%;
+  margin: 10%;
+}
+h2{
+  text-align: center;
+  font-size: 8vw;
+  font-spacing: 2px;
+  font-family: San serif;
+  color: maroon;
+  padding: 15px;
+  background: rgba(0,0,0,0.8)
+  width: 90%;
+  border: 1 px solid white;
+}
+#form1 > input {
+  float: right;
+}
+.choose > input{
+  float: right;
+}
+.submit > input{
+  background: rgba(0,0,0,0.9);
+  width: 70px;
+  height: 50px;
+  border: none;
+  color: white;
+}
+label {
+  font-size: 10px;
+}
+p {
+  font-size: 16px;
+}
+input[type="text"], input[type="number"], input[type="email"], input[type="radio"], label[for="excellent"], label[for="good"], label[for="fair"], label[for="poor"], label[for="male"], label[for="female"], label[for="unknown"], label[for="nxt0"], label[for="nxt1"], label[for="nxt2"], label[for="nxt3"] {
+  float: right;
+}
+}
+@media (min-width: 798px) {
+    .banner{
+  background: rgba(225,225,225,0.6);
+  width: 60%;
+  margin-top: 10%;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+}
+.banner2 {
+  width: 80%;
+  margin: 10%;
+}
+h2{
+  text-align: center;
+  font-size: 8vw;
+  font-spacing: 2px;
+  font-family: San serif;
+  color: maroon;
+  padding: 15px;
+  background: rgba(0,0,0,0.8)
+  width: 90%;
+  border: 1 px solid white;
+}
+#form1 > input {
+  float: right;
+}
+.choose > input{
+  float: right;
+}
+.submit > input{
+  background: rgba(0,0,0,0.9);
+  width: 70px;
+  height: 50px;
+  border: none;
+  color: white;
+}
+label {
+  font-size: 20px;
+}
+p {
+  font-size: 25px;
+}
+input[type="text"], input[type="number"], input[type="email"], input[type="radio"], label[for="excellent"], label[for="good"], label[for="fair"], label[for="poor"], label[for="male"], label[for="female"], label[for="unknown"], label[for="nxt0"], label[for="nxt1"], label[for="nxt2"], label[for="nxt3"] {
+  float: right;
+}
+}
